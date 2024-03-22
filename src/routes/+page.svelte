@@ -99,7 +99,7 @@
 
 </script>
 
-<div class="px-8 py-3 flex flex-col lg:flex-row w-full gap-4 items-center">
+<div class="px-8 pt-3 flex flex-col lg:flex-row w-full gap-4 items-center">
     <div class="flex flex-col shrink-0 w-fit gap-4 items-center">
         <div class="flex flex-col w-fit gap-2 relative">
             <div
@@ -109,7 +109,7 @@
                     <span class="">🦠</span>
                     <span class="mt-auto">🦠</span>
                 </div>
-                <h1 class="text-4xl font-extrabold w-full text-center tracking-widest px-2">
+                <h1 class="text-2xl sm:text-4xl font-extrabold w-full text-center tracking-widest px-2">
                     <span id='slime' class="text-[#18ea1c70] moldy">
                         slime</span><span id='mold' class="text-[#27c97570] moldy">
                             mold</span><span class="text-[#ffffffd0] moldy" style="--c: #dfcca71a">
@@ -122,7 +122,7 @@
                 </div>
             </div>
             <div class="font-pixel flex flex-col w-fit gap-2">
-                <div class="font-bold text-xl flex flex-row justify-center gap-4">
+                <div class="font-bold text-lg sm:text-xl flex flex-row justify-center gap-4">
                     <div class="flex flex-row">
                         {#each fencerLeftColors as c}
                             <span
@@ -140,18 +140,18 @@
                         <span class="w-[0.33rem] z-10" style="text-shadow: 0 0 0 black">🤺</span>
                     </div>
                 </div>
-                <div class="text-lg flex flex-row justify-between gap-4">
+                <div class="text-sm sm:text-lg flex flex-row justify-between gap-2 sm:gap-4">
                         <span class="">📸</span>
                         <h2 class="">photography & computation</h2>
                         <span class="">💾</span>
                 </div>
-                <div class="text-base text-gray-200 flex flex-row justify-center gap-4">
+                <div class="text-sm sm:text-base text-gray-200 flex flex-row justify-center gap-4">
                     <span class="">☕️</span>
                     <h2 class="">seattle, wa</h2>
                     <span class="">🌲</span>
                 </div>
             </div>
-            <div class="text-lg flex flex-row items-center justify-center mb-7">
+            <div class="text-base sm:text-lg flex flex-row items-center justify-center mb-7">
                 <span class="">
                     @: 
                 </span> <a class="text-[#0094c1] hover:text-[#00b0a8]"
@@ -163,7 +163,7 @@
             </div>
             <div class="holo self-center"></div>
         </div>
-        <div class="flex-1 flex-col items-center justify-center flex lg:hidden">
+        <div class="text-xs sm:text-base mb-2 sm:mb-3 flex-1 flex-col items-center justify-center sm:px-2 flex lg:hidden">
             <div class="">
                 <p class="border-b border-b-white w-fit mb-1">Available for:</p>
                 <div class="">
@@ -186,17 +186,17 @@
                 </div>
             </div>
         </div>
-        <div class="radio-group flex flex-row items-center justify-center">
-            <span class="text-sm font-light text-[#ffffffd0] moldy" style="--c: #dfcca71a">style: </span>
+        <div class="radio-group flex flex-row items-center justify-center ">
+            <span class="text-xs sm:text-sm font-light text-[#ffffffd0] moldy" style="--c: #dfcca71a">style: </span>
             {#each styles as s}
-                <label class="ml-4 relative pl-[40px] inline-block text-sm font-pixel cursor-pointer">
+                <label class="ml-2 sm:ml-4 relative pl-[40px] inline-block text-xs sm:text-sm font-pixel cursor-pointer">
                     <input name="styles" class="opacity-0 absolute" type="radio" value={s} bind:group={style} checked={style==s} />
                     <span class="radio-label">{s}</span>
                 </label>
             {/each}
         </div>
     </div>
-    <div class="flex-1 flex-col items-center justify-center hidden lg:flex">
+    <div class="flex-1 flex-col items-center justify-center text-base hidden lg:flex">
         <div class="">
             <p class="border-b border-b-white w-fit mb-1">Available for:</p>
             <div class="">
