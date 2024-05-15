@@ -40,6 +40,10 @@
 
     const images = shuffleArray([
         'abstract_01',
+        'ant_suplex',
+        'arboretum_fly',
+        'bradner_hoverfly',
+        'bradner_fly',
         'camel_sunset',
         'channels',
         'clouds_01',
@@ -51,6 +55,7 @@
         'evans_creek_spiral',
         'heron',
         'kirkjufellfoss_01',
+        'long_fly',
         'mopop_01',
         'moth_01',
         'mushroom_01',
