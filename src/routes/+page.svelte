@@ -34,8 +34,9 @@
 
     const styles = [
         'photo',
-        'noir',
         'ascii',
+        'ditherpunk',
+        'graffiti',
     ];
 
     const images = shuffleArray([
@@ -318,13 +319,16 @@
     .photo {
         --shade: 72, 103, 128;
     }
-    .noir {
+    .ditherpunk {
         --shade: 111, 111, 111;
+    }
+    .graffiti {
+        --shade: 255, 10, 10;
     }
     .ascii {
         --shade: 228, 170, 58;
     }
-    .photo, .noir, .ascii {
+    .photo, .ascii, .ditherpunk, .graffiti {
         will-change: box-shadow;
         transition: box-shadow 200ms ease-in;
         box-shadow: 
@@ -334,7 +338,7 @@
             rgba(var(--shade), 0.05) -12px 12px 0 0, 
             rgba(var(--shade), 0.025) -15px 15px 0 0;
     }
-    .photo:hover, .noir:hover, .ascii:hover {
+    .photo:hover, .ascii:hover, .ditherpunk:hover, .graffiti:hover {
         box-shadow: 
             rgba(var(--shade), 0.4)  0 0 0 3px, 
             rgba(var(--shade), 0.3)  0 0 0 6px, 
