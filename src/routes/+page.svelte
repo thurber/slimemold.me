@@ -79,6 +79,7 @@
         'shiva_01',
         'south_seattle_arboretum_leucospid_wasp',
         'sunrise_01',
+        'tiger_mountain_lacewing',
         'waterfall_park_01',
         'waterworks_stink_bug',
     ]);
