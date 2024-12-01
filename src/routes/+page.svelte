@@ -42,6 +42,7 @@
     const images = shuffleArray([
         'abstract_01',
         'ant_suplex',
+        'arboretum_hummingbird',
         'bradner_hoverfly',
         'camel_sunset',
         'channels',
@@ -74,6 +75,9 @@
         'lord_hill_meadowhawk',
         'mopop_01',
         'mushroom_01',
+        'nisqually_golden-crowned_sparrow',
+        'nisqually_sandpiper',
+        'padilla_bay_kingfisher',
         'rainier_beach_bee',
         'seward_hoverfly',
         'shiva_01',
@@ -81,6 +85,7 @@
         'sunrise_01',
         'tiger_mountain_lacewing',
         'waterfall_park_01',
+        'waterworks_dragonfly',
         'waterworks_stink_bug',
     ]);
 
