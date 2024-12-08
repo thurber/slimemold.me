@@ -79,6 +79,7 @@
         'nisqually_sandpiper',
         'padilla_bay_kingfisher',
         'rainier_beach_bee',
+        'seward_crow_eye',
         'seward_hoverfly',
         'shiva_01',
         'south_seattle_arboretum_leucospid_wasp',
