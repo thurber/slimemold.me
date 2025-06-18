@@ -1,0 +1,719 @@
+export default {
+
+    template: {
+        location: "",
+        title: "",
+        description: `
+        `,
+        time: "",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "alki_house_sparrow": {
+        location: "Alki Beach",
+        title: "house sparrow",
+        description: `
+        `,
+        time: "2025-04-19T09:48:36",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 6400,
+        exposure: "1/800 sec",
+        stack: false,
+        teleconverter: 1.4,
+        flash: false,
+    },
+
+    "alki_starling": {
+        location: "Alki Beach",
+        title: "starling",
+        description: `
+        `,
+        time: "2025-04-19T08:51:58",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 4000,
+        exposure: "1/800 sec",
+        stack: false,
+        teleconverter: 1.4,
+        flash: false,
+    },
+
+    "arboretum_heron_ballet": {
+        location: "Washington Park Aboretum",
+        title: "heron ballet",
+        description: `
+        `,
+        time: "2025-02-26T15:44:45",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 2500,
+        exposure: "1/1000 sec",
+        stack: false,
+        teleconverter: 1.4,
+        flash: false,
+    },
+
+    "arboretum_heron_ruins": {
+        location: "Washington Park Aboretum",
+        title: "heron in ruins",
+        description: `
+            A great blue heron adorns the ruins of past civilization.
+        `,
+        time: "2024-12-28T14:28:25",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 320,
+        exposure: "1/60 sec",
+        stack: false,
+        teleconverter: 1.4,
+        flash: false,
+    },
+
+    "arboretum_raccoon_tree": {
+        location: "Washington Park Aboretum",
+        title: "raccoon",
+        description: `
+        `,
+        time: "2025-04-26T08:06:36",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 12800,
+        exposure: "1/800 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "arboretum_wood_ducks_hair_toss": {
+        location: "Washington Park Aboretum",
+        title: "wood duck glam",
+        description: `
+        `,
+        time: "2024-12-28T14:58:56",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 5000,
+        exposure: "1/1000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "beacon_strawberry_crown_moth": {
+        location: "Beacon Food Forest",
+        title: "strawberry crown moth",
+        description: `
+            <i>synanthedon bibionipennis</i>
+        `,
+        time: "2025-06-05T15:37:27",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/13",
+        iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "beacon_thick-headed_fly_physocephala_burgessi": {
+        location: "Beacon Food Forest",
+        title: "thick-headed fly",
+        description: `
+            <i>physocephala burgessi</i>
+        `,
+        time: "2025-06-05T16:53:57",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/11",
+        iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "bellevue_botanical_peeking_bee": {
+        location: "Bellevue Botanical Garden",
+        title: "peeking bee",
+        description: `
+        `,
+        time: "2024-09-28T15:45:30",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 400,
+        exposure: "1/125 sec",
+        stack: 2,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "bradner_hoverfly_inflight": {
+        location: "Bradner Gardens",
+        title: "hoverfly in flight",
+        description: `
+        `,
+        time: "2024-05-14T17:47:57",
+        lens: "Laowa 85mm f/5.6 2x Ultra Macro APO",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 200,
+        exposure: "1/200 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "bradner_leafcutter": {
+        location: "Bradner Gardens",
+        title: "leafcutter bouquet",
+        description: `
+        `,
+        time: "2025-05-25T15:43:52",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/11",
+        iso: 160,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "bradner_red_nomad_bee": {
+        location: "Bradner Gardens",
+        title: "red nomad bee",
+        description: `
+        `,
+        time: "2025-05-25T17:07:19",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "clark_creek_blue_dasher_female_stack": {
+        location: "Clark Lake",
+        title: "blue dasher female",
+        description: `
+            <i>pachydiplax longipennis</i>
+        `,
+        time: "2025-06-15T13:09:37",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 100,
+        exposure: "1/125 sec",
+        stack: 2,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "clark_creek_myrmecocystus_ant": {
+        location: "Clark Lake",
+        title: "red-headed ant",
+        description: `
+            <i>myrmecocystus</i>
+        `,
+        time: "2025-06-15T12:17:19",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 160,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+    
+    "cougar_autumn_meadowhawk_meal": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "autumn meadowhawk at mealtime",
+        description: `
+            An autumn meadowhawk (<i>sympetrum vicinum</i>), a type of dragonfly, dines on a hapless insect.
+        `,
+        time: "2025-06-08T14:09:21",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/14",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "cougar_blue_damsel": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "blue damsel",
+        description: `
+            Spreadwing damselfly (family <i>lestidae</i>).
+        `,
+        time: "2024-08-16T20:06:31",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "cougar_damsel": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "red-eye damsel",
+        description: `
+            Spreadwing damselfly (family <i>lestidae</i>).
+        `,
+        time: "2024-08-16T20:02:01",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "cougar_mtn_mayfly": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "mayfly",
+        description: `
+        `,
+        time: "2025-06-01T11:37:33",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "cougar_mtn_stink_bug": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "bubbly stink bug",
+        description: `
+        `,
+        time: "2025-06-01T09:52:20",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "cougar_snakefly": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "snakefly",
+        description: `
+        `,
+        time: "2024-06-08T11:55:09",
+        lens: "Laowa 85mm f/5.6 2x Ultra Macro APO",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "coulon_park_painted_turtle_trio": {
+        location: "Gene Coulon Memorial Beach Park",
+        title: "painted turtle trio",
+        description: `
+        `,
+        time: "2025-04-25T14:52:58",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 400,
+        exposure: "1/320 sec",
+        stack: false,
+        teleconverter: 1.4,
+        flash: false,
+    },
+
+    "discovery_heron_strike": {
+        location: "Discovery Park",
+        title: "heron strike",
+        description: `
+        `,
+        time: "2025-04-13T11:26:22",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 1600,
+        exposure: "1/3200 sec",
+        stack: false,
+        teleconverter: 1.4,
+        flash: false,
+    },
+
+    "echo_peak_brutal_ant": {
+        location: "Echo Peak",
+        title: "brutal ant",
+        description: `
+        `,
+        time: "2024-04-20T12:07:45",
+        lens: "Laowa 85mm f/5.6 2x Ultra Macro APO",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 160,
+        exposure: "1/200 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "honey_dew_creek_hoverfly_king": {
+        location: "Honey Dew Creek",
+        title: "hoverfly king",
+        description: `
+        `,
+        time: "2024-07-07T11:52:42",
+        lens: "Laowa 85mm f/5.6 2x Ultra Macro APO",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "jefferson_hoverfly_blue_flower": {
+        location: "Beacon Food Forest",
+        title: "leafcutter blues",
+        description: `
+        `,
+        time: "2024-06-01T17:22:46",
+        lens: "Laowa 85mm f/5.6 2x Ultra Macro APO",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "jefferson_hoverfly_mating": {
+        location: "Beacon Food Forest",
+        title: "hoverflies mating",
+        description: `
+        `,
+        time: "2024-06-29T17:18:24",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/11",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "kirkjufell_foss": {
+        location: "Grundarfjörður, Ísland",
+        title: "kirkjufellfoss",
+        description: `
+            Long exposure of the iconic Kirkjufell foss on a drizzly gray day.
+        `,
+        time: "2023-10-03",
+        lens: "Voigtländer 35 mm / 1:1.2 Nokton X",
+        camera: "Fujifilm X-Pro3",
+        aperture: "f/3.2",
+        iso: 160,
+        exposure: "4 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "kubota_black_tipped_darner_close": {
+        location: "Kubota Garden",
+        title: "black-tipped darner",
+        description: `
+            <i>aeshna tuberculifera</i>
+        `,
+        time: "2025-05-26T17:07:36",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "lord_hill_meadowhawk": {
+        location: "Lord Hill Regional Park",
+        title: "autumn meadowhawk",
+        description: `
+            <i>sympetrum vicinum</i>
+        `,
+        time: "2024-08-31T13:16:00",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "mercer_starling_flicker": {
+        location: "Mercer Slough",
+        title: "starling vs flicker",
+        description: `
+        `,
+        time: "2025-04-12T13:56:46",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 400,
+        exposure: "1/1250 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "mercer_towhee_redeye": {
+        location: "Mercer Slough",
+        title: "redeye towhee",
+        description: `
+        `,
+        time: "2025-04-12T13:50:06",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 1600,
+        exposure: "1/1250 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "nepal_pokhara_shiva": {
+        location: "Pumdikot Temple, Pokhara, Nepal",
+        title: "shiva",
+        description: `
+        `,
+        time: "2022-08-27",
+        lens: "Fujifilm XF 16mm f/2.8 R WR",
+        camera: "Fujifilm X-Pro3",
+        aperture: "f/5.6",
+        iso: 160,
+        exposure: "1/2000 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "nisqually_yellowlegs_ripples": {
+        location: "Billy Frank Jr. Nisqually National Wildlife Refuge",
+        title: "yellowleg ripples",
+        description: `
+        `,
+        time: "2024-11-29T11:29:32",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/5.6",
+        iso: 800,
+        exposure: "1/350 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "seward_crow_angel": {
+        location: "Seward Park",
+        title: "crow angel",
+        description: `
+        `,
+        time: "2024-12-26T15:48:20",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 800,
+        exposure: "1/1000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "seward_crow_profile": {
+        location: "Seward Park",
+        title: "crow eye",
+        description: `
+        `,
+        time: "2024-12-07T16:37:18",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/5.6",
+        iso: 1600,
+        exposure: "1/500 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "seward_heron_flight": {
+        location: "Seward Park",
+        title: "heron in flight",
+        description: `
+        `,
+        time: "2025-03-07T16:45:49",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 12800,
+        exposure: "1/1000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "skagit_dowitcher_sparkle": {
+        location: "Skagit Wildlife Area - Leque Island Unit",
+        title: "sparkle dowitcher",
+        description: `
+        `,
+        time: "2024-12-24T13:10:55",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 80,
+        exposure: "1/200 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "south_seattle_arboretum_hoverfly": {
+        location: "South Seattle College Arboretum",
+        title: "hoverfly",
+        description: `
+        `,
+        time: "2025-05-11T12:52:41",
+        lens: "Zeiss Apo-Makro-Planar T* 4/120",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/11",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "spencer_island_eagle_glare": {
+        location: "Spencer Island",
+        title: "eagle glare",
+        description: `
+        `,
+        time: "2025-03-22T13:28:17",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 640,
+        exposure: "1/2000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "spencer_island_heron_marsh_flight": {
+        location: "Spencer Island",
+        title: "heron marsh flight",
+        description: `
+        `,
+        time: "2025-03-22T12:39:41",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 800,
+        exposure: "1/2000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "spencer_island_heron_ripple": {
+        location: "Spencer Island",
+        title: "heron ripple",
+        description: `
+        `,
+        time: "2025-03-22T12:36:23",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 320,
+        exposure: "1/1000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "tiger_mountain_green_lacewing": {
+        location: "Tiger Mountain",
+        title: "green lacewing",
+        description: `
+        `,
+        time: "2024-10-13T12:57:01",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/13",
+        iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "yard_katydid_nymph": {
+        location: "Columbia City",
+        title: "katydid nymph",
+        description: `
+        `,
+        time: "2025-06-12T20:37:33",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+
+}
