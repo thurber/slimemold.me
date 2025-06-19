@@ -53,6 +53,12 @@
     }
 
     $effect(() => {
+        setTimeout(() => {
+            select('photography');
+        }, 1000);
+    });
+
+    $effect(() => {
         if (hyper)
             setTimeout(() => { hyper = false }, Math.floor(Math.random() * (5000 - 1000 + 1) + 1000));
     });

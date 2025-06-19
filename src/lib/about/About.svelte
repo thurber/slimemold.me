@@ -129,6 +129,20 @@
                     <span class="group-hover:underline decoration-1 underline-offset-4">formicidwanderer</span>
                 </a>
                 <a
+                    href="https://bsky.app/profile/autumnmeadowhawk.bsky.social"
+                    onclick={e=>{e.stopPropagation()}}
+                    target="_blank"
+                    rel="noreferrer"
+                    class="
+                        flex flex-row items-center gap-2 px-2
+                        text-sm text-slime group
+                        hover:text-emerald-500
+                    "
+                >
+                    <span class="icon-[pixel--bluesky] group-hover:animate-spin"></span>
+                    <span class="group-hover:underline decoration-1 underline-offset-4">autumnmeadowhawk</span>
+                </a>
+                <a
                     href="https://github.com/thurber"
                     onclick={e=>{e.stopPropagation()}}
                     target="_blank"
