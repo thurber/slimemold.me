@@ -296,6 +296,23 @@ export default {
         flash: true,
     },
 
+    "cougar_mtn_apollo": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "Apollo butterfly",
+        description: `
+            Rocky mountain parnassian / apollo butterfly
+        `,
+        time: "2025-06-28T16:24:42",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
     "cougar_mtn_mayfly": {
         location: "Cougar Mountain Regional Wildland Park",
         title: "mayfly",
@@ -306,6 +323,22 @@ export default {
         camera: "Fujifilm GFX100 II",
         aperture: "f/16",
         iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "cougar_mtn_sawfly": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "sawfly",
+        description: `
+        `,
+        time: "2025-06-28T15:03:23",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 200,
         exposure: "1/125 sec",
         stack: false,
         teleconverter: false,
