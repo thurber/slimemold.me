@@ -298,7 +298,7 @@ export default {
 
     "cougar_mtn_apollo": {
         location: "Cougar Mountain Regional Wildland Park",
-        title: "Apollo butterfly",
+        title: "apollo butterfly",
         description: `
             Rocky mountain parnassian / apollo butterfly
         `,
@@ -726,6 +726,55 @@ export default {
         camera: "Fujifilm GFX100 II",
         aperture: "f/13",
         iso: 320,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "tiger_mtn_parnassius": {
+        location: "Tiger Mountain West #3",
+        title: "parnassius",
+        description: `
+        `,
+        time: "2025-07-03T15:06:30",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/11",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "tiger_mtn_tiger_lily": {
+        location: "Tiger Mountain West #3",
+        title: "tiger lily",
+        description: `
+        `,
+        time: "2025-07-03T13:22:54",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/14",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "tiger_mtn_underwing": {
+        location: "Tiger Mountain West #3",
+        title: "underwing moth",
+        description: `
+            ilia or three-staff underwing maybe
+        `,
+        time: "2025-07-03T13:44:57",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/11",
+        iso: 200,
         exposure: "1/125 sec",
         stack: false,
         teleconverter: false,
