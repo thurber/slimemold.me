@@ -313,6 +313,21 @@ export default {
         flash: true,
     },
 
+    "cougar_mtn_green_darner": {
+        location: "Cougar Mountain Regional Wildland Park",
+        title: "green darner",
+        description: ``,
+        time: "2025-07-05T14:52:04",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
     "cougar_mtn_mayfly": {
         location: "Cougar Mountain Regional Wildland Park",
         title: "mayfly",
@@ -650,6 +665,36 @@ export default {
         stack: false,
         teleconverter: "1.4x",
         flash: false,
+    },
+
+    "soos_creek_blue_dasher": {
+        location: "Soos Creek",
+        title: "blue dasher",
+        description: ``,
+        time: "2025-07-06T09:47:10",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "soos_creek_twelve_spot_skimmer": {
+        location: "Soos Creek",
+        title: "twelve spot skimmer",
+        description: ``,
+        time: "2025-07-06T09:58:14",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
     },
 
     "south_seattle_arboretum_hoverfly": {
