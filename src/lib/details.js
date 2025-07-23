@@ -1,21 +1,5 @@
 export default {
 
-    template: {
-        location: "",
-        title: "",
-        description: `
-        `,
-        time: "",
-        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/16",
-        iso: 200,
-        exposure: "1/125 sec",
-        stack: false,
-        teleconverter: false,
-        flash: false,
-    },
-
     "alki_house_sparrow": {
         location: "Alki Beach",
         title: "house sparrow",
@@ -298,10 +282,8 @@ export default {
 
     "cougar_mtn_apollo": {
         location: "Cougar Mountain Regional Wildland Park",
-        title: "apollo butterfly",
-        description: `
-            Rocky mountain parnassian / apollo butterfly
-        `,
+        title: "parnassian butterfly",
+        description: ``,
         time: "2025-06-28T16:24:42",
         lens: "Nikon AF Micro-Nikkor 200mm f/4D",
         camera: "Fujifilm GFX100 II",
@@ -759,6 +741,21 @@ export default {
         stack: false,
         teleconverter: "1.4x",
         flash: false,
+    },
+
+    "teanaway_black_tipped_darner_20250719": {
+        location: "Bean Creek Basin",
+        title: "black-tipped darner",
+        description: ``,
+        time: "2025-07-19T14:50:59",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 160,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
     },
 
     "teanaway_blue_copper_20250719": {

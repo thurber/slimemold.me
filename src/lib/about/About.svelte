@@ -77,6 +77,7 @@
                 <div class="flex flex-col gap-2 items-center text-xs xl:text-sm text-slime">
                     <span>Fujifilm GFX100 II camera</span>
                     <span>Fujifilm GF 500mm f/5.6 telephoto lens</span>
+                    <span>Fujifilm GF 120mm f/4 lens</span>
                     <span>Fujifilm GF 45mm f/2.8 lens</span>
                     <span>Nikon 200mm f/4 macro lens</span>
                     <span>Zeiss 120mm f/4 macro lens</span>
