@@ -803,6 +803,21 @@ export default {
         flash: true,
     },
 
+    "teanaway_coronis-fritillary_20250802": {
+        location: "Teanaway Community Forest",
+        title: "coronis fritillary",
+        description: ``,
+        time: "2025-08-02T12:18:21",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
     "teanaway_ediths_checkerspot_20250719": {
         location: "Bean Creek Basin",
         title: "edith's checkerspot",
@@ -865,7 +880,7 @@ export default {
 
     "teanaway_great_basin_wood_nymph_20250719": {
         location: "Bean Creek Basin",
-        title: "great basin wood nymph",
+        title: "common wood nymph",
         description: ``,
         time: "2025-07-19T14:21:27",
         lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
@@ -895,7 +910,7 @@ export default {
 
     "teanaway_mariposa_copper_20250719": {
         location: "Bean Creek Basin",
-        title: "mariposa_copper",
+        title: "mariposa copper",
         description: ``,
         time: "2025-07-19T10:10:54",
         lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
@@ -918,6 +933,36 @@ export default {
         aperture: "f/18",
         iso: 80,
         exposure: "1/125 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "teanaway_mourning-cloak-back_20250802": {
+        location: "Teanaway Community Forest",
+        title: "mourning cloak",
+        description: ``,
+        time: "2025-08-02T12:48:00",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 200,
+        exposure: "1/640 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "teanaway_pine-white_20250802": {
+        location: "Teanaway Community Forest",
+        title: "pine white",
+        description: ``,
+        time: "2025-08-02T11:59:00",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/10",
+        iso: 800,
+        exposure: "1/640 sec",
         stack: false,
         teleconverter: false,
         flash: true,
