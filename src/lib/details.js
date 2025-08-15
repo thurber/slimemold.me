@@ -97,6 +97,22 @@ export default {
         flash: false,
     },
 
+    "baker_moonlight_baker_20250812": {
+        location: "Kulshan",
+        title: "moonlight baker",
+        description: `
+        `,
+        time: "2025-12-25T23:32:59",
+        lens: "Fujifilm GF 45mm f/2.8 R WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/4",
+        iso: 1600,
+        exposure: "10 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "beacon_strawberry_crown_moth": {
         location: "Beacon Food Forest",
         title: "strawberry crown moth",
