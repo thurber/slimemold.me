@@ -102,7 +102,7 @@ export default {
         title: "moonlight baker",
         description: `
         `,
-        time: "2025-12-25T23:32:59",
+        time: "2025-08-12T23:32:59",
         lens: "Fujifilm GF 45mm f/2.8 R WR",
         camera: "Fujifilm GFX100 II",
         aperture: "f/4",
@@ -438,6 +438,36 @@ export default {
         flash: true,
     },
 
+    "franklin_pipevine_swallowtail_20250821": {
+        location: "Franklin, NC",
+        title: "pipevine swallowtail",
+        description: ``,
+        time: "2025-08-21T09:51:43",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/6.4",
+        iso: 800,
+        exposure: "1/1250 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "grayson_highlands_massie_gap_ponies_20250825": {
+        location: "Grayson Highlands, VA",
+        title: "massie gap ponies",
+        description: ``,
+        time: "2025-08-25T12:55:23",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 320,
+        exposure: "1/400 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "honey_dew_creek_hoverfly_king": {
         location: "Honey Dew Creek",
         title: "hoverfly king",
@@ -646,6 +676,21 @@ export default {
         exposure: "1/1000 sec",
         stack: false,
         teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "silers_bald_pearl_crescent_20250820": {
+        location: "Siler Bald, NC",
+        title: "pearl crescent",
+        description: ``,
+        time: "2025-08-20T09:01:12",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 200,
+        exposure: "1/500 sec",
+        stack: false,
+        teleconverter: false,
         flash: false,
     },
 
