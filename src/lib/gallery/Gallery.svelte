@@ -45,7 +45,7 @@
 </script>
 
 <div
-    out:fade
+    transition:fade
     class="flex flex-col items-center mt-4 w-full"
 >
     <div
