@@ -631,6 +631,21 @@ export default {
         flash: false,
     },
 
+    "reecer_metalmark_20250913": {
+        location: "Reecer Creek",
+        title: "mormon metalmark",
+        description: ``,
+        time: "2025-09-13T15:33:53",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 640,
+        exposure: "1/640 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "seward_crow_angel": {
         location: "Seward Park",
         title: "crow angel",

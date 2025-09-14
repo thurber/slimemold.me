@@ -15,6 +15,12 @@
         ...DateTime.TIME_24_WITH_SHORT_OFFSET,
     });
 
+    const lastUpdatedShort = DateTime.fromISO(
+        PUBLIC_LAST_UPDATED
+    ).toLocaleString({
+        ...DateTime.DATE_MED_WITH_WEEKDAY
+    });
+
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -50,7 +56,7 @@
 >
     <div
         class="
-            flex flex-col md:flex-row md:items-center gap-2 w-full px-8
+            flex flex-col items-center md:flex-row gap-2 w-full px-8
         "
     >
         <div class="flex flex-row items-center gap-2">
@@ -73,7 +79,8 @@
                 </button>
             {/each}
         </div>
-        <span class="md:ml-auto text-slime text-xs">Last updated: {lastUpdated}</span>
+        <span class="sm:hidden md:ml-auto text-slime text-xs">Last updated: {lastUpdatedShort}</span>
+        <span class="hidden sm:block md:ml-auto text-slime text-xs">Last updated: {lastUpdated}</span>
     </div>
     <div
         class="
