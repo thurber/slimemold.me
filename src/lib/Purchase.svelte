@@ -25,7 +25,7 @@
     </span>
     {#each [
         { width: 4, height:  6, price: 30, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
-        { width: 5, height:  8, price: 50, class: "w-20 md:w-40", buy: 'https://buy.stripe.com/cNi6oJ0K235F9EpdCC9oc00', },
+        { width: 5, height:  7, price: 50, class: "w-20 md:w-40", buy: 'https://buy.stripe.com/cNi6oJ0K235F9EpdCC9oc00', },
         { width: 8, height: 10, price: 75, class: "w-32 md:w-64", buy: 'https://buy.stripe.com/bJecN7dwO0XxaIt5669oc02', },
     ] as l}
         <div class="flex flex-row gap-4 my-4">
