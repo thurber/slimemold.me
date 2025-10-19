@@ -615,6 +615,22 @@ export default {
         flash: false,
     },
 
+    "nisqually_heron_fish_toss_20251017": {
+        location: "Billy Frank Jr. Nisqually National Wildlife Refuge",
+        title: "Heron Fish Toss",
+        description: `
+        `,
+        time: "2025-10-17T15:39:55",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 640,
+        exposure: "1/1000 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
     "nisqually_yellowlegs_ripples": {
         location: "Billy Frank Jr. Nisqually National Wildlife Refuge",
         title: "yellowleg ripples",
