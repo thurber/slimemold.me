@@ -550,6 +550,22 @@ export default {
         flash: true,
     },
 
+    "lincoln_jay_20251020": {
+        location: "Lincoln Park",
+        title: "stellar's jay",
+        description: `
+        `,
+        time: "2025-10-20T13:26:25",
+        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 1600,
+        exposure: "1/80 sec",
+        stack: false,
+        teleconverter: "1.4x",
+        flash: false,
+    },
+
     "lord_hill_meadowhawk": {
         location: "Lord Hill Regional Park",
         title: "autumn meadowhawk",
@@ -596,6 +612,51 @@ export default {
         exposure: "1/1250 sec",
         stack: false,
         teleconverter: "1.4x",
+        flash: false,
+    },
+
+    "nbc_ceranus_blue_20251101": {
+        location: "Mission, TX",
+        title: "ceranus blue",
+        description: ``,
+        time: "2025-11-01T15:44:06",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/10",
+        iso: 800,
+        exposure: "1/160 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "nbc_grasshoppers_20251101": {
+        location: "Mission, TX",
+        title: "grasshoppers and flowers",
+        description: ``,
+        time: "2025-11-01T15:43:30",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/10",
+        iso: 640,
+        exposure: "1/160 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "nbc_guava_skipper_20251103": {
+        location: "Mission, TX",
+        title: "guava skipper",
+        description: ``,
+        time: "2025-11-03T08:05:10",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/14",
+        iso: 400,
+        exposure: "1/320 sec",
+        stack: false,
+        teleconverter: false,
         flash: false,
     },
 
@@ -739,6 +800,21 @@ export default {
         stack: false,
         teleconverter: "1.4x",
         flash: false,
+    },
+
+    "snow_mtn_ranch_coronis_fritillary_20250930": {
+        location: "Snow Mountain Ranch, Yakima, WA",
+        title: "coronis in yakima",
+        description: ``,
+        time: "2025-09-30T15:44:06",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 1250,
+        exposure: "1/500 sec",
+        stack: false,
+        teleconverter: false,
+        flash: true,
     },
 
     "soos_creek_blue_dasher": {
