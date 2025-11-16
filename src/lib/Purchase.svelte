@@ -19,7 +19,7 @@
         <br/>
         watermark will not be present on the print
         <br/>
-        mount by epoxying a small piece of wood to the back
+        mount using command strips or reach out about custom frames
         <br/>
         <a href="mailto:tbt@slimemold.me" class="underline underline-offset-4">email me</a> for custom sizes or special requests
     </span>

@@ -192,6 +192,12 @@
                                         </div>
                                     {/if}
                                 {/each}
+                                {#if details[$lightboxphoto].diopter}
+                                    <div class="flex flex-row items-start justify-center gap-2">
+                                        <span class="w-28 text-end">macro ext:</span>
+                                        <span class="w-fit">+{details[$lightboxphoto].diopter} diopters</span>
+                                    </div>
+                                {/if}
                                 {#if details[$lightboxphoto].stack}
                                     <div class="flex flex-row items-start justify-center gap-2">
                                         <span class="w-28 text-end">stack:</span>

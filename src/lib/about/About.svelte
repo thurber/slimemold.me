@@ -87,14 +87,20 @@
             {:else}
                 <p
                     class="
-                        w-full h-min object-cover text-slime text-sm px-2 text-justify
+                        w-full h-min object-cover text-slime text-xs px-2 text-justify
                     "
                 >
-                    hi, i'm travis, a macro & wildlife photographer in Seattle, Washington, USA.
-                    i'm passionate about the lifeforms all around us and their little details that often go unnoticed.
-                    you may stumble across me bumbling around the parks and nature preserves in the Pacific Northwest lugging a giant camera and awkwardly peering into a bush.
+                    hi, i'm travis, a macro & wildlife photographer based in Seattle, Washington, USA.
                     <br/><br/>
-                    don't hesitate to reach out if you'd like to collaborate or even just chat!
+                    in the quiet world of small creatures, a complex and often unnoticed beauty thrives.
+                    my work seeks to reveal this delicate and intricate life, magnifying the vibrant ecosystems of our world.
+                    i invite viewers to step into the microscope and witness the whimsical proboscis of a butterfly, the iridescent sheen of a dragonfly, or the solemn gaze of a crow.
+                    <br/><br/>
+                    in a time when biodiversity is dwindling at an alarming rate, I aim to create more than just portraits.
+                    these images are meant to provoke reflection; a meditative pause in our chaotic world where the beauty of life is slipping away unnoticed.
+                    my photographs act as elegies for what we stand to lose if we do not act.
+                    <br/><br/>
+                    don't hesitate to reach out if you'd like to collaborate!
                 </p>
             {/if}
             <div class="flex flex-col gap-2 w-full items-center mt-2">

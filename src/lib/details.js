@@ -195,22 +195,6 @@ export default {
         flash: true,
     },
 
-    "bradner_red_nomad_bee": {
-        location: "Bradner Gardens",
-        title: "red nomad bee",
-        description: `
-        `,
-        time: "2025-05-25T17:07:19",
-        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/8",
-        iso: 200,
-        exposure: "1/125 sec",
-        stack: false,
-        teleconverter: false,
-        flash: true,
-    },
-
     "clark_creek_blue_dasher_female_stack": {
         location: "Clark Lake",
         title: "blue dasher female",
@@ -422,6 +406,24 @@ export default {
         flash: false,
     },
 
+    "dockton_coy_20251115": {
+        location: "Dockton Forest",
+        title: "coy",
+        description: `
+            amethyst deceiver
+        `,
+        time: "2025-11-16T12:53:04",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/16",
+        iso: 1600,
+        exposure: "0.4 sec",
+        stack: 54,
+        teleconverter: false,
+        flash: false,
+        diopter: 5,
+    },
+
     "echo_peak_brutal_ant": {
         location: "Echo Peak",
         title: "brutal ant",
@@ -583,22 +585,6 @@ export default {
         flash: true,
     },
 
-    "mercer_starling_flicker": {
-        location: "Mercer Slough",
-        title: "starling vs flicker",
-        description: `
-        `,
-        time: "2025-04-12T13:56:46",
-        lens: "Fujifilm GF 500mm f/5.6 R LM OIS WR",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/8",
-        iso: 400,
-        exposure: "1/1250 sec",
-        stack: false,
-        teleconverter: "1.4x",
-        flash: false,
-    },
-
     "mercer_towhee_redeye": {
         location: "Mercer Slough",
         title: "redeye towhee",
@@ -741,7 +727,7 @@ export default {
 
     "seward_crow_profile": {
         location: "Seward Park",
-        title: "crow eye",
+        title: "crow eye reflecting tahoma",
         description: `
         `,
         time: "2024-12-07T16:37:18",
@@ -956,21 +942,6 @@ export default {
         flash: true,
     },
 
-    "teanaway_columbian_blue_with_ant_20250719": {
-        location: "Bean Creek Basin",
-        title: "columbian blue with ant",
-        description: ``,
-        time: "2025-07-19T12:31:16",
-        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/9",
-        iso: 500,
-        exposure: "1/1250 sec",
-        stack: false,
-        teleconverter: false,
-        flash: true,
-    },
-
     "teanaway_coronis-fritillary_20250802": {
         location: "Teanaway Community Forest",
         title: "coronis fritillary",
@@ -980,21 +951,6 @@ export default {
         camera: "Fujifilm GFX100 II",
         aperture: "f/16",
         iso: 80,
-        exposure: "1/125 sec",
-        stack: false,
-        teleconverter: false,
-        flash: true,
-    },
-
-    "teanaway_ediths_checkerspot_20250719": {
-        location: "Bean Creek Basin",
-        title: "edith's checkerspot",
-        description: ``,
-        time: "2025-07-19T10:35:38",
-        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/16",
-        iso: 160,
         exposure: "1/125 sec",
         stack: false,
         teleconverter: false,
@@ -1026,21 +982,6 @@ export default {
         aperture: "f/9",
         iso: 250,
         exposure: "1/500 sec",
-        stack: false,
-        teleconverter: false,
-        flash: true,
-    },
-
-    "teanaway_fritillary_20250719": {
-        location: "Bean Creek Basin",
-        title: "fritillary",
-        description: ``,
-        time: "2025-07-19T12:33:28",
-        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/9",
-        iso: 800,
-        exposure: "1/1250 sec",
         stack: false,
         teleconverter: false,
         flash: true,
@@ -1093,7 +1034,7 @@ export default {
 
     "teanaway_moth_daisy_20250713": {
         location: "Teanaway Community Forest",
-        title: "moth on daisy",
+        title: "everlasting tebenna moth on daisy",
         description: ``,
         time: "2025-07-13T09:17:11",
         lens: "Nikon AF Micro-Nikkor 200mm f/4D",
@@ -1146,21 +1087,6 @@ export default {
         aperture: "f/10",
         iso: 800,
         exposure: "1/1000 sec",
-        stack: false,
-        teleconverter: false,
-        flash: true,
-    },
-
-    "teanaway_sagebrush_sooty_hairstreak_20250719": {
-        location: "Bean Creek Basin",
-        title: "sagebrush sooty hairstreak",
-        description: ``,
-        time: "2025-07-19T12:09:48",
-        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
-        camera: "Fujifilm GFX100 II",
-        aperture: "f/9",
-        iso: 400,
-        exposure: "1/800 sec",
         stack: false,
         teleconverter: false,
         flash: true,
