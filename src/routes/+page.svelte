@@ -3,6 +3,7 @@
     import Nav from "$lib/nav/Nav.svelte";
     import About from "$lib/about/About.svelte";
     import Gallery from "$lib/gallery/Gallery.svelte";
+    import Announcement from "$lib/Announcement.svelte";
 
     let selected = $state();
 
@@ -14,7 +15,14 @@
         py-4 lg:py-16 px-2 lg:px-8
     "
 >
-    <Nav bind:selected={selected} />
+    <div
+        class="
+            flex flex-col lg:flex-row gap-4 items-center md:justify-around w-full
+        "
+    >
+        <Nav bind:selected={selected} />
+        <Announcement />
+    </div>
     {#if selected==='about'}
         <About />
     {:else if selected==='photography'}

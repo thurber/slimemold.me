@@ -424,6 +424,24 @@ export default {
         diopter: 5,
     },
 
+    "dockton_worship_20251115": {
+        location: "Dockton Forest",
+        title: "worship",
+        description: `
+            candlesnuff fungus
+        `,
+        time: "2025-11-16T13:54:13",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/14",
+        iso: 640,
+        exposure: "0.4 sec",
+        stack: 97,
+        teleconverter: false,
+        flash: false,
+        diopter: 5,
+    },
+
     "echo_peak_brutal_ant": {
         location: "Echo Peak",
         title: "brutal ant",
