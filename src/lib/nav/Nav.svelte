@@ -6,7 +6,7 @@
 </script>
 
 <div
-    class="scale-60 lg:scale-100 z-20"
+    class="scale-60 md:scale-100 z-20"
 >
     <ButtonRing bind:selected={selected} />
 </div>

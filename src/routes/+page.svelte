@@ -17,7 +17,7 @@
 >
     <div
         class="
-            flex flex-col lg:flex-row gap-4 items-center md:justify-around w-full
+            flex flex-col xl:flex-row gap-x-24 gap-y-8 items-center md:justify-center w-full
         "
     >
         <Nav bind:selected={selected} />

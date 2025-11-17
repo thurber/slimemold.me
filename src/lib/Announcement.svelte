@@ -8,7 +8,7 @@
 <a
     transition:fade
     class="
-        flex flex-col sm:flex-row border-1 border-solid border-slime rounded-sm overflow-hidden
+        flex flex-col-reverse sm:flex-row border-1 border-solid border-slime rounded-sm overflow-hidden
         hover:outline-1 outline-slime outline-offset-2 hover:border-double
     "
     href="https://www.galleryb612.com/event-details-registration/winter-art-market-small-works-exhibition"
@@ -20,7 +20,7 @@
         class="w-64 lg:w-80 h-64 lg:h-80 object-cover"
     />
     <div
-        class="flex flex-col w-64 lg:w-80 h-64 lg:h-80 border-t-1 sm:border-t-0 border-l-0 sm:border-l-1 border-slime"
+        class="flex flex-col-reverse sm:flex-col w-64 lg:w-80 h-64 lg:h-80 border-t-1 sm:border-t-0 border-l-0 sm:border-l-1 border-slime"
     >
         <p class="text-slime text-sm lg:text-base text-center p-2">
             Come see<br/><i>Crow Eye Reflecting Tahoma</i><br/>at<br/>Gallery B612<br/>in<br/>Seattle<br/>Dec 4 - Jan 8!

@@ -68,7 +68,7 @@
                 <button
                     class="
                         text-xs px-1.5 pt-px pb-0.5 rounded border border-slime text-slime
-                        flex flex-row items-center gap-1 cursor-pointer transition-all
+                        flex flex-row items-center gap-1 cursor-pointer transition-all z-20
                         hover:outline-2 hover:outline-emerald-500/75 hover:outline-offset-2 hover:outline-double hover:border-emerald-500
                         active:outline-2 active:outline-emerald-400/75 active:outline-offset-3 active:outline-double active:border-emerald-400
                         active:inset-shadow-xs active:inset-shadow-white/25
