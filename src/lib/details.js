@@ -473,6 +473,21 @@ export default {
         flash: false,
     },
 
+    "franklin_snowberry_clearwing_20250818": {
+        location: "Franklin, NC",
+        title: "snowberry clearwing",
+        description: ``,
+        time: "2025-08-18T07:35:36",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 320,
+        exposure: "1/640 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "grayson_highlands_massie_gap_ponies_20250825": {
         location: "Grayson Highlands, VA",
         title: "massie gap ponies",
