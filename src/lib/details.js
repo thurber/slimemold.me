@@ -742,6 +742,22 @@ export default {
         flash: false,
     },
 
+    "seward_carnival_candy_slime_mold_20251129": {
+        location: "Seward Park",
+        title: "carnival candy slime mold",
+        description: ``,
+        time: "2025-11-29T15:03:48",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: 19,
+        teleconverter: false,
+        flash: true,
+        mag: 2.5,
+    },
+
     "seward_crow_angel": {
         location: "Seward Park",
         title: "crow angel",
@@ -788,6 +804,22 @@ export default {
         stack: false,
         teleconverter: "1.4x",
         flash: false,
+    },
+
+    "seward_lamproderma_20251129": {
+        location: "Seward Park",
+        title: "lamproderma slime mold",
+        description: ``,
+        time: "2025-11-29T15:26:56",
+        lens: "Nikon AF Micro-Nikkor 200mm f/4D",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 80,
+        exposure: "1/125 sec",
+        stack: 16,
+        teleconverter: false,
+        flash: true,
+        mag: 2.5,
     },
 
     "silers_bald_pearl_crescent_20250820": {
