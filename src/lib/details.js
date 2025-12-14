@@ -822,6 +822,21 @@ export default {
         mag: 2.5,
     },
 
+    "seward_push_pin_slime_mold_20251213": {
+        location: "Seward Park",
+        title: "push pin slime mold",
+        description: ``,
+        time: "2025-12-13T15:45:27",
+        lens: "Laowa 25mm f/2.8 2.5-5X Ultra Macro",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/4",
+        iso: 500,
+        exposure: "1/125 sec",
+        stack: 24,
+        teleconverter: false,
+        flash: true,
+    },
+
     "silers_bald_pearl_crescent_20250820": {
         location: "Siler Bald, NC",
         title: "pearl crescent",

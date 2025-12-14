@@ -79,7 +79,7 @@
                     <span>Fujifilm GF 500mm f/5.6 telephoto lens</span>
                     <span>Fujifilm GF 120mm f/4 lens</span>
                     <span>Fujifilm GF 45mm f/2.8 lens</span>
-                    <span>Nikon 200mm f/4 macro lens</span>
+                    <span>Laowa 25mm f/2.8 2.5-5X lens</span>
                     <span>Zeiss 120mm f/4 macro lens</span>
                     <span>Godox V860III flash</span>
                     <span>Fringer adapters (C645 and NF)</span>
