@@ -62,7 +62,7 @@
             </div>
         </button>
     </Flipper>
-    <Flipper class="lg:flex-1 w-96 lg:w-auto h-96 lg:h-[30rem] lg:self-stretch">
+    <Flipper class="lg:flex-1 w-96 lg:w-auto h-[40rem] 2xl:h-96 lg:self-stretch">
         <button
             class="w-full h-full flex flex-col items-center p-4 gap-4 cursor-pointer"
             onclick={() => moSwapped=!moSwapped}
@@ -147,6 +147,20 @@
                     "
                 >
                     <span class="icon-[pixel--bluesky] group-hover:animate-spin"></span>
+                    <span class="group-hover:underline decoration-1 underline-offset-4">autumnmeadowhawk</span>
+                </a>
+                <a
+                    href="https://www.inaturalist.org/people/autumnmeadowhawk"
+                    onclick={e=>{e.stopPropagation()}}
+                    target="_blank"
+                    rel="noreferrer"
+                    class="
+                        flex flex-row items-center gap-2 px-2
+                        text-sm text-slime group
+                        hover:text-emerald-500
+                    "
+                >
+                    <span class="icon-[academicons--inaturalist] group-hover:animate-spin"></span>
                     <span class="group-hover:underline decoration-1 underline-offset-4">autumnmeadowhawk</span>
                 </a>
                 <a
