@@ -21,7 +21,30 @@
         "
     >
         <Nav bind:selected={selected} />
-        <Announcement />
+        <span>
+            <span>
+                🌳
+            </span>
+            <span
+                class="uppercase moldy text-[#18ea1caa]"
+            >
+                Nature
+            </span>
+            <span>
+                🦉🦋<br/>
+            </span>
+            <span>
+                📸
+            </span>
+            <span
+                class="uppercase moldy text-[#18ea1caa]"
+            >
+                Photography<br/>
+            </span>
+            <span>
+                🦠🦠🦠🦠🌻🦠🦠🦠🦠
+            </span>
+        </span>
     </div>
     {#if selected==='about'}
         <About />
