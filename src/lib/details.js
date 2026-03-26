@@ -97,6 +97,54 @@ export default {
         flash: false,
     },
 
+    "arizona_white_pocket_dragon_20260318": {
+        location: "Vermillion Cliffs, Arizona",
+        title: "White Pocket Dragon",
+        description: `
+        `,
+        time: "2026-03-18T15:18:28",
+        lens: "Fujifilm GF 45mm f/2.8 R WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 80,
+        exposure: "1/320 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "arizona_white_pocket_star_trails_20260318": {
+        location: "Vermillion Cliffs, Arizona",
+        title: "White Pocket Star Trails",
+        description: `
+        `,
+        time: "2026-03-18T22:31:30",
+        lens: "Fujifilm GF 45mm f/2.8 R WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/2.8",
+        iso: 800,
+        exposure: "8 min",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "arizona_wukoki_pueblo_20260316": {
+        location: "Wupatki National Monument, Arizona",
+        title: "Wukoki Pueblo",
+        description: `
+        `,
+        time: "2026-03-16T14:20:05",
+        lens: "Fujifilm GF 45mm f/2.8 R WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/5",
+        iso: 80,
+        exposure: "1/640 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "baker_moonlight_baker_20250812": {
         location: "Kulshan",
         title: "moonlight baker",

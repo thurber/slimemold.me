@@ -15,13 +15,9 @@
         purchase an aluminum sublimation print
     </h2>
     <span class="hidden sm:block text-sm leading-5 mb-4">
-        i print, press, and ship these myself
-        <br/>
         watermark will not be present on the print
         <br/>
-        mount using command strips or reach out about custom frames
-        <br/>
-        <a href="mailto:tbt@slimemold.me" class="underline underline-offset-4">email me</a> for custom sizes or special requests
+        <a href="mailto:tbt@slimemold.me" class="underline underline-offset-4">email me</a> for custom size, medium, or special requests
     </span>
     {#each [
         { width: 4, height:  6, price: 30, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
