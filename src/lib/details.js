@@ -1309,6 +1309,21 @@ export default {
         flash: true,
     },
 
+    "tiger_coral_slime_closeup_20260412": {
+        location: "Lake Tradition",
+        title: "common coral slime mold",
+        description: ``,
+        time: "2026-04-12T13:05:20",
+        lens: "Laowa 25mm f/2.8 2.5-5X Ultra Macro",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/4",
+        iso: 200,
+        exposure: "1/125 sec",
+        stack: 24,
+        teleconverter: false,
+        flash: true,
+    },
+
     "tiger_mountain_green_lacewing": {
         location: "Tiger Mountain",
         title: "green lacewing",
