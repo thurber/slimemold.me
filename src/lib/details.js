@@ -820,6 +820,21 @@ export default {
         flash: false,
     },
 
+    "schmidt_coral_slime_20260430": {
+        location: "Schmidt Preserve",
+        title: "coral slime mold",
+        description: ``,
+        time: "2026-04-30T11:56:05",
+        lens: "Laowa 25mm f/2.8 2.5-5X Ultra Macro",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/4",
+        iso: 250,
+        exposure: "1/125 sec",
+        stack: 34,
+        teleconverter: false,
+        flash: true,
+    },
+
     "seward_crow_angel": {
         location: "Seward Park",
         title: "crow angel",
@@ -1320,6 +1335,21 @@ export default {
         iso: 200,
         exposure: "1/125 sec",
         stack: 24,
+        teleconverter: false,
+        flash: true,
+    },
+
+    "tiger_eyelash_cup_20260429": {
+        location: "Tolt-MacDonald Park",
+        title: "eyelash pixie cup",
+        description: ``,
+        time: "2026-04-29T12:29:38",
+        lens: "Laowa 25mm f/2.8 2.5-5X Ultra Macro",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/4",
+        iso: 250,
+        exposure: "1/125 sec",
+        stack: 9,
         teleconverter: false,
         flash: true,
     },
