@@ -898,6 +898,36 @@ export default {
         flash: false,
     },
 
+    "rocky_ford_large_marble_20260602": {
+        location: "Rocky Ford",
+        title: "large marble",
+        description: ``,
+        time: "2026-06-02T15:11:29",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 320,
+        exposure: "1/800 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
+    "rocky_ford_red_admiral_20260602": {
+        location: "Rocky Ford",
+        title: "red admiral",
+        description: ``,
+        time: "2026-06-02T10:44:33",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/4",
+        iso: 100,
+        exposure: "1/400 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "schmidt_coral_slime_20260430": {
         location: "Schmidt Preserve",
         title: "coral slime mold",
