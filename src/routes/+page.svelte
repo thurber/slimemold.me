@@ -42,7 +42,7 @@
                 Photography<br/>
             </span>
             <span>
-                🦠🦠🦠🦠🌻🦠🦠🦠🦠
+                🦠🦠🦠<span class="hidden md:inline">🦠</span>🌻🦠🦠🦠<span class="hidden md:inline">🦠</span>
             </span>
         </span>
     </div>

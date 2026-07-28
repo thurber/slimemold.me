@@ -566,6 +566,21 @@ export default {
         flash: true,
     },
 
+    "teanaway_western_sheep_moth_20260720": {
+        location: "Teanaway - Dickey Creek",
+        title: "western sheep moth",
+        description: ``,
+        time: "2026-07-20T13:31:01",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/9",
+        iso: 1000,
+        exposure: "1/400 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "thurber_sprouting_hawthorn_seed_20251227": {
         location: "Cougar Mountain Regional Wildland Park",
         title: "sprouting hawthorn seed",
