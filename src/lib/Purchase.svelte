@@ -15,14 +15,14 @@
         purchase an aluminum sublimation print
     </h2>
     <span class="hidden sm:block text-sm leading-5 mb-4">
-        watermark will not be present on the print
+        (watermark will not be present on the print)
         <br/>
-        <a href="mailto:tbt@slimemold.me" class="underline underline-offset-4">email me</a> for custom size, medium, or special requests
+        <a href="mailto:tbt@slimemold.me" class="underline underline-offset-4">email me</a> for custom size, frame, or special requests
     </span>
     {#each [
-        { width: 4, height:  6, price: 30, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
-        { width: 5, height:  7, price: 50, class: "w-20 md:w-40", buy: 'https://buy.stripe.com/cNi6oJ0K235F9EpdCC9oc00', },
-        { width: 8, height: 10, price: 75, class: "w-32 md:w-64", buy: 'https://buy.stripe.com/bJecN7dwO0XxaIt5669oc02', },
+        { name:  "small", width: 12, height:  9, price:  77, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
+        { name: "medium", width: 16, height: 12, price:  99, class: "w-20 md:w-40", buy: 'https://buy.stripe.com/bJecN7dwO0XxaIt5669oc02', },
+        { name:  "large", width: 24, height: 18, price: 166, class: "w-32 md:w-64", buy: 'https://buy.stripe.com/cNi6oJ0K235F9EpdCC9oc00', },
     ] as l}
         <div class="flex flex-row gap-4 my-4">
             <div class="w-32 md:w-64 flex flex-col items-end justify-center">
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="w-32 md:w-64 flex flex-row items-center h-auto gap-4">
-                <span class="text-xs md:text-sm w-12 md:w-20 whitespace-nowrap">{l.width}″ x {l.height}″</span>
+                <span class="text-xs md:text-sm w-12 md:w-20 whitespace-nowrap">{l.name}<br/>{l.width}″ x {l.height}″</span>
                 <span class="text-xs md:text-sm w-8 md:w-12 whitespace-nowrap">${l.price}</span>
                 <a
                     class="

@@ -397,6 +397,21 @@ export default {
         flash: false,
     },
 
+    "rocky_ford_cascadia_blue_20260602": {
+        location: "Rocky Ford",
+        title: "cascadia blue",
+        description: ``,
+        time: "2026-06-02T11:29:28",
+        lens: "Fujifilm GF 120mm f/4 Macro R LM OIS WR",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/8",
+        iso: 160,
+        exposure: "1/800 sec",
+        stack: false,
+        teleconverter: false,
+        flash: false,
+    },
+
     "rocky_ford_large_marble_20260602": {
         location: "Rocky Ford",
         title: "large marble",
