@@ -45,7 +45,7 @@
             hover:text-emerald-500
         "
     >
-        <span class="icon-[streamline-pixel--email-envelope] group-hover:animate-spin"></span>
+        <span class="icon-[streamline-pixel--mobile-phone] group-hover:animate-spin"></span>
         <span class="group-hover:underline decoration-1 underline-offset-4">+1.919.616.1150</span>
     </a>
     <a
