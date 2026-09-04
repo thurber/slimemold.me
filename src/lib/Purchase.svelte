@@ -1,7 +1,9 @@
 <script>
+    import { page } from '$app/state';
     import { fade } from "svelte/transition";
     import { base } from "$app/paths";
-    import { photomode, lightboxphoto } from "./stores";
+    import { photomode } from "./stores";
+    let lightboxphoto = page.url.hash.substring(1);
 </script>
 
 <div
@@ -15,9 +17,9 @@
         purchase an aluminum sublimation print
     </h2>
     <span class="hidden sm:block text-sm leading-5 mb-4">
-        (watermark will not be present on the print)
+        (watermark will be removed)
         <br/>
-        <a href="mailto:tbt@slimemold.me" class="underline underline-offset-4">email me</a> for custom size, frame, or special requests
+        <a href="mailto:travis@slimemold.me" class="underline underline-offset-4 hover:text-emerald-500">email me</a> for custom sizes or special requests
     </span>
     {#each [
         { name:  "small", width: 12, height:  9, price:  77, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
@@ -28,8 +30,8 @@
             <div class="w-32 md:w-64 flex flex-col items-end justify-center">
                 <div class={l.class}>
                     <img
-                        alt="{$lightboxphoto} {$photomode}"
-                        src="{base}/img/{$photomode}/lg/{$lightboxphoto}.webp"
+                        alt="{lightboxphoto} {$photomode}"
+                        src="{base}/img/{$photomode}/lg/{lightboxphoto}.webp"
                         class="object-contain w-full h-full object-right"
                     />
                 </div>
@@ -47,7 +49,7 @@
                         active:border-emerald-400 active:outline-double active:outline-emerald-400/75 active:outline-offset-3
                     "
                     target="_blank"
-                    href="{l.buy}?client_reference_id={$lightboxphoto}_{$photomode}"
+                    href="{l.buy}?client_reference_id={lightboxphoto}_{$photomode}"
                 >
                     buy
                 </a>

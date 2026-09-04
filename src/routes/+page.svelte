@@ -1,56 +1,7 @@
 <script>
-    import Lightbox from "$lib/Lightbox.svelte";
-    import Nav from "$lib/nav/Nav.svelte";
-    import About from "$lib/about/About.svelte";
-    import Gallery from "$lib/gallery/Gallery.svelte";
-    import Announcement from "$lib/Announcement.svelte";
 
-    let selected = $state();
+    import Gallery from "$lib/gallery/Gallery.svelte";
 
 </script>
 
-<div
-    class="
-        flex flex-col gap-4 items-center justify-center
-        py-4 lg:py-16 px-2 lg:px-8
-    "
->
-    <div
-        class="
-            flex flex-col xl:flex-row gap-x-24 gap-y-8 items-center md:justify-center w-full
-        "
-    >
-        <Nav bind:selected={selected} />
-        <span>
-            <span>
-                🌳
-            </span>
-            <span
-                class="uppercase moldy text-[#18ea1caa]"
-            >
-                Nature
-            </span>
-            <span>
-                🦉🦋<br/>
-            </span>
-            <span>
-                📸
-            </span>
-            <span
-                class="uppercase moldy text-[#18ea1caa]"
-            >
-                Photography<br/>
-            </span>
-            <span>
-                🦠🦠🦠<span class="hidden md:inline">🦠</span>🌻🦠🦠🦠<span class="hidden md:inline">🦠</span>
-            </span>
-        </span>
-    </div>
-    {#if selected==='about'}
-        <About />
-    {:else if selected==='photography'}
-        <Gallery />
-    {/if}
-</div>
-
-<Lightbox />
+<Gallery />

@@ -1,8 +1,10 @@
 <script>
+    import { page } from '$app/state';
+
     import { DateTime } from "luxon";
     import { base } from "$app/paths";
     import { fade } from "svelte/transition";
-    import { photomode, lightboxphoto } from "$lib/stores";
+    import { photomode } from "$lib/stores";
     import details from "$lib/details";
     import Flipper from "./Flipper.svelte";
     import Purchase from "./Purchase.svelte";
@@ -20,6 +22,7 @@
     let showInfo = $state(false);
     let showPrint = $state(false);
 
+    let lightboxphoto = $state();
 
     let imageDims = $derived.by(() => {
         if (screenWidth && screenHeight && imgNaturalWidth && imgNaturalHeight) {
@@ -47,9 +50,9 @@
     });
 
     const close = () => {
-        $lightboxphoto = "";
         showInfo = false;
         showPrint = false;
+        history.back();
     }
 
     $effect(() => {
@@ -66,14 +69,14 @@
     });
 
     $effect(() => {
-        if ($lightboxphoto) {
+        if (page.url.hash.substring(1)) {
             document.body.style.overflowY = "hidden";
             document.body.style.height = "100vh";
             buttons = [
                 {
                     icon: 'icon-[pixel--info-circle]',
                     label: 'info',
-                    disabled: !details[$lightboxphoto],
+                    disabled: !details[lightboxphoto],
                     onclick: e => {
                         showInfo = !showInfo;
                         showPrint = false;
@@ -91,17 +94,21 @@
                     },
                 },
             ];
+            lightboxphoto = page.url.hash.substring(1);
         }
         else {
             document.body.style.overflowY = "auto";
             document.body.style.height = "auto";
             buttons = [];
+            lightboxphoto = undefined;
+            showInfo = false;
+            showPrint = false;
         }
     });
 
 </script>
 
-{#if $lightboxphoto}
+{#if lightboxphoto}
     <div
         bind:clientWidth={screenWidth}
         bind:clientHeight={screenHeight}
@@ -135,8 +142,8 @@
                 <img
                     bind:naturalWidth={imgNaturalWidth}
                     bind:naturalHeight={imgNaturalHeight}
-                    alt="{$lightboxphoto} {$photomode}"
-                    src="{base}/img/{$photomode}/lg/{$lightboxphoto}.webp"
+                    alt="{lightboxphoto} {$photomode}"
+                    src="{base}/img/{$photomode}/lg/{lightboxphoto}.webp"
                     class="object-contain w-full h-full"
                 />
                 {#snippet bside()}
@@ -148,20 +155,20 @@
                                 flex flex-col items-center text-slime
                             "
                         >
-                            {#if details[$lightboxphoto].title}
+                            {#if details[lightboxphoto].title}
                                 <h2 class="text-base md:text-lg font-semibold mb-2">
-                                    {details[$lightboxphoto].title} {$photomode === 'photo' ? '' : `{${$photomode}}`}
+                                    {details[lightboxphoto].title} {$photomode === 'photo' ? '' : `{${$photomode}}`}
                                 </h2>
                             {/if}
-                            {#if details[$lightboxphoto].location}
+                            {#if details[lightboxphoto].location}
                                 <span class="text-xs md:text-sm">
-                                    {details[$lightboxphoto].location}
+                                    {details[lightboxphoto].location}
                                 </span>
                             {/if}
-                            {#if details[$lightboxphoto].time}
+                            {#if details[lightboxphoto].time}
                                 <span class="text-xs md:text-sm">
                                     {DateTime.fromISO(
-                                        details[$lightboxphoto].time
+                                        details[lightboxphoto].time
                                     ).setZone(
                                         "America/Los_Angeles"
                                     ).toLocaleString({
@@ -176,38 +183,38 @@
                                     algorithmically modified photograph (no AI)
                                 </span>
                             {/if}
-                            {#if details[$lightboxphoto].description}
+                            {#if details[lightboxphoto].description}
                                 <span class="text-xs md:text-sm mt-4">
-                                    {@html details[$lightboxphoto].description}
+                                    {@html details[lightboxphoto].description}
                                 </span>
                             {/if}
                             <div class="mt-4 flex-col items-start gap-1 text-xs hidden md:flex">
                                 {#each [
                                     'camera', 'lens', 'aperture', 'exposure', 'iso', 'teleconverter', 'flash'
                                 ] as spec}
-                                    {#if details[$lightboxphoto][spec]}
+                                    {#if details[lightboxphoto][spec]}
                                         <div class="flex flex-row items-start justify-center gap-2">
                                             <span class="w-28 text-end">{spec}:</span>
-                                            <span class="w-fit">{details[$lightboxphoto][spec]}</span>
+                                            <span class="w-fit">{details[lightboxphoto][spec]}</span>
                                         </div>
                                     {/if}
                                 {/each}
-                                {#if details[$lightboxphoto].diopter}
+                                {#if details[lightboxphoto].diopter}
                                     <div class="flex flex-row items-start justify-center gap-2">
                                         <span class="w-28 text-end">macro ext:</span>
-                                        <span class="w-fit">+{details[$lightboxphoto].diopter} diopters</span>
+                                        <span class="w-fit">+{details[lightboxphoto].diopter} diopters</span>
                                     </div>
                                 {/if}
-                                {#if details[$lightboxphoto].mag}
+                                {#if details[lightboxphoto].mag}
                                     <div class="flex flex-row items-start justify-center gap-2">
                                         <span class="w-28 text-end">macro ext:</span>
-                                        <span class="w-fit">{details[$lightboxphoto].mag}x</span>
+                                        <span class="w-fit">{details[lightboxphoto].mag}x</span>
                                     </div>
                                 {/if}
-                                {#if details[$lightboxphoto].stack}
+                                {#if details[lightboxphoto].stack}
                                     <div class="flex flex-row items-start justify-center gap-2">
                                         <span class="w-28 text-end">stack:</span>
-                                        <span class="w-fit">{details[$lightboxphoto].stack} frames</span>
+                                        <span class="w-fit">{details[lightboxphoto].stack} frames</span>
                                     </div>
                                 {/if}
                             </div>
@@ -253,6 +260,7 @@
                 {#each [0, 1] as i}
                     <button
                         class="
+                            block
                             absolute text-xl md:text-3xl
                             my-2 md:my-4
                             text-rose-400 cursor-pointer
