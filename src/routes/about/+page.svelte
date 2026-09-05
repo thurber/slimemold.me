@@ -17,7 +17,7 @@
 >
 
     <div class="flex flex-col-reverse md:flex-row">
-        <Flipper class="h-96 md:w-96 md:h-auto relative">
+        <Flipper class="h-72 md:w-96 md:h-auto relative">
             <button
                 class="w-full h-full flex flex-col items-center py-1 px-4 gap-4 cursor-pointer"
                 onclick={() => terracottaSwapped=!terracottaSwapped}

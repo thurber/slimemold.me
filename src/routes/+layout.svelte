@@ -69,7 +69,7 @@
 
     <div
         class="
-            flex flex-col w-min
+            flex flex-col w-min items-center
             my-2 md:my-4 mx-4 md:mx-8
         "
     >

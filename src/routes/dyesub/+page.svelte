@@ -45,7 +45,7 @@
 >
 
     <div class="flex flex-col-reverse md:flex-row items-center md:items-start">
-        <Flipper class="h-64 w-96 relative">
+        <Flipper class="h-50 md:h-64 w-72 md:w-96 relative">
             <button
                 class="w-full h-full flex flex-col items-center py-1 px-4 gap-4 cursor-pointer"
                 onclick={() => printSwapped=!printSwapped}
@@ -64,7 +64,7 @@
         </Flipper>
         <div
             class="
-                w-96 object-cover text-slime text-sm px-2 md:pb-4 text-justify
+                w-72 md:w-96 object-cover text-slime text-xs md:text-sm px-2 md:pb-4 text-justify
             "
         >
             <p>
@@ -82,24 +82,24 @@
             </p>
         </div>
     </div>
-    <div class="text-sm flex flex-col items-center text-start text-slime mt-6 md:mt-2">
+    <div class="text-xs md:text-sm flex flex-col items-center text-start text-slime mt-6 md:mt-2">
         <p>
             Approximate prices for various media:
             <br/><br/>
         </p>
         {#each examplePrices as p}
             <div class="flex flex-row items-center not-last:border-b first-of-type:text-emerald-500 first-of-type:font-bold">
-                <p class="w-44">{p.medium}</p>
-                <div class="w-36 border-x border-slime p-2">
+                <p class="w-36 md:w-44">{p.medium}</p>
+                <div class="w-24 md:w-36 border-x border-slime p-2">
                     {#each p.options as o}
                         <p class="">{o}</p>
                     {/each}
                 </div>
-                <p class="w-16 pl-2">{p.price}</p>
+                <p class="w-12 md:w-16 pl-2">{p.price}</p>
             </div>
         {/each}
     </div>
-    <p class="text-slime text-base w-96 md:w-auto">
+    <p class="text-slime text-xs md:text-sm w-72 md:w-auto">
         <br/><br/>
         Email me at <a
             href="mailto:travis@slimemold.me"
