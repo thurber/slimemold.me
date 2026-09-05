@@ -99,7 +99,7 @@
             </div>
         {/each}
     </div>
-    <p class="text-slime text-xs md:text-sm w-72 md:w-auto">
+    <p class="text-slime text-xs md:text-sm w-72 md:w-full text-center">
         <br/><br/>
         Email me at <a
             href="mailto:travis@slimemold.me"
