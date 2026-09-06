@@ -75,7 +75,7 @@
                     class="cursor-pointer hover:text-emerald-500 underline underline-offset-4"
                 >dye sublimation</a>.
                 <br/><br/>
-                This processes fuses dye with the material in a vibrant and durable way, such that the resulting print is highly fade and wash resistant.
+                This process fuses dye with the material in a vibrant and durable way, such that the resulting print is highly fade and wash resistant.
                 <br/><br/>
                 I provide this service at cost plus $25/hour for my time, and can provide quick turnaround if the materials are readily available.
                 <br/><br/>
