@@ -22,9 +22,9 @@
         <a href="mailto:travis@slimemold.me" class="underline underline-offset-4 hover:text-emerald-500">email me</a> for custom sizes or special requests
     </span>
     {#each [
-        { name:  "small", width: 12, height:  9, price:  77, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
-        { name: "medium", width: 16, height: 12, price:  99, class: "w-20 md:w-40", buy: 'https://buy.stripe.com/bJecN7dwO0XxaIt5669oc02', },
-        { name:  "large", width: 24, height: 18, price: 166, class: "w-32 md:w-64", buy: 'https://buy.stripe.com/cNi6oJ0K235F9EpdCC9oc00', },
+        { name:  "small", width: 7, height:  5, price:  77, class: "w-16 md:w-20", buy: 'https://buy.stripe.com/5kQaEZ78qeOncQB1TU9oc01', },
+        { name: "medium", width: 12, height: 8, price:  111, class: "w-20 md:w-40", buy: 'https://buy.stripe.com/bJecN7dwO0XxaIt5669oc02', },
+        { name:  "large", width: 24, height: 18, price: 222, class: "w-32 md:w-64", buy: 'https://buy.stripe.com/cNi6oJ0K235F9EpdCC9oc00', },
     ] as l}
         <div class="flex flex-row gap-4 my-4">
             <div class="w-32 md:w-64 flex flex-col items-end justify-center">
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="w-32 md:w-64 flex flex-row items-center h-auto gap-4">
-                <span class="text-xs md:text-sm w-12 md:w-20 whitespace-nowrap">{l.name}<br/>{l.width}″ x {l.height}″</span>
+                <span class="text-xs md:text-sm w-12 md:w-20 whitespace-nowrap">{l.name}<br/>{l.width}″</span>
                 <span class="text-xs md:text-sm w-8 md:w-12 whitespace-nowrap">${l.price}</span>
                 <a
                     class="

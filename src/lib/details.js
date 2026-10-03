@@ -489,6 +489,21 @@ export default {
         flash: true,
     },
 
+    "seward_organism_20260926": {
+        location: "Seward Park",
+        title: "organism",
+        description: `unknown species, most likely fungal`,
+        time: "2026-09-26T11:46:31",
+        lens: "Laowa Aksen 17.5mm f/1.7 5-10X Ultra Macro",
+        camera: "Fujifilm GFX100 II",
+        aperture: "f/2.8",
+        iso: 500,
+        exposure: "1/125 sec",
+        stack: 53,
+        teleconverter: false,
+        flash: true,
+    },
+
     "seward_push_pin_slime_mold_20251213": {
         location: "Seward Park",
         title: "push pin slime mold",

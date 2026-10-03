@@ -146,6 +146,12 @@
             travis b thurber
         </span>
 
+        <span
+            class="moldy text-sm self-center tracking-wide text-[#18ea1ccc] whitespace-nowrap pt-1"
+        >
+            in Seattle, WA
+        </span>
+
     </div>
 
 	<Nav />
